@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".youtube">
+
+    <ImageView android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="500dp"
+        android:maxHeight="300dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/tyre"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="How to Change Tyre"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageView android:id="@+id/image_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="500dp"
+        android:maxHeight="300dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/start"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="How to Jump Start"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageView android:id="@+id/image_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="500dp"
+        android:maxHeight="300dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/door"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="Unlock Locked Door"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+
+</LinearLayout>
